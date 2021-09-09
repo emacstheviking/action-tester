@@ -1,4 +1,4 @@
-name: Django CI
+name: Django CI Test Runner
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 jobs:
-  build:
+  all_tests_must_be_green:
 
     runs-on: ubuntu-latest
     strategy:

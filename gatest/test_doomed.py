@@ -5,5 +5,5 @@ class DeathOrGloryTest(SimpleTestCase):
         # f3review: not only will this fail but it will need
         # manual reviewer intervention as the branch rule now
         # insists on minumum 1 reviewer.
-        self.assertEqual(42,42)
+        self.assertEqual(42,999)
 
